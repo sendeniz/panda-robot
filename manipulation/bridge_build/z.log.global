@@ -1,11 +1,11 @@
 ** compiled at:     Apr 12 2024 16:09:03
-** execution start: 2024-04-17 13:54:05:529942
+** execution start: 2024-04-24 15:40:52:146759
 graph.cpp:initParameters:1505(3) opening config file 'rai.cfg'
 graph.cpp:initParameters:1512(3)  - failed
 graph.cpp:initParameters:1518(3) opening base config file '/home/denizsen/git/robotic/rai/../local.cfg'
 graph.cpp:initParameters:1524(3)  - failed
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
-util.cpp:cd_file:1040(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios' from '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
+util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
+util.cpp:cd_file:1040(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios' from '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
 util.cpp:getIs:1069(3) opening input file 'pandaSingle.g'
 util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios'
 util.cpp:getIs:1069(3) opening input file 'panda_fixGripper.g'
@@ -50,9 +50,11 @@ util.cpp:getIs:1069(3) opening input file 'finger.ply'
 util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
 util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
 util.cpp:getIs:1069(3) opening input file 'finger.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
-util.cpp:cd_file:1040(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios' from '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
+util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
+kin_physx.cpp:addJoint:299(0) ADDING JOINT l_panda_joint7-box1 of type rigid with rel [0, 0, 0]
+kin_physx.cpp:removeJoint:893(0) REMOVING JOINT 0x4a4cfa0-0x4a5ee40 of type rigid
+util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
+util.cpp:cd_file:1040(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios' from '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
 util.cpp:getIs:1069(3) opening input file 'pandaSingle.g'
 util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios'
 util.cpp:getIs:1069(3) opening input file 'panda_fixGripper.g'
@@ -97,9 +99,18 @@ util.cpp:getIs:1069(3) opening input file 'finger.ply'
 util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
 util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
 util.cpp:getIs:1069(3) opening input file 'finger.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
-util.cpp:cd_file:1040(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios' from '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
+util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
+bot.cpp:~BotOp:128(0) shutting down BotOp...
+simulation.cpp:~BotThreadedSim:56(0) shutting down SimThread
+simulation.cpp:~Simulation:149(0) shutting down Simulation
+kin_physx.cpp:addJoint:299(0) ADDING JOINT l_panda_joint7-box3 of type rigid with rel [0, 0, 0]
+kin_physx.cpp:removeJoint:893(0) REMOVING JOINT 0x65dbdb0-0x65e31e0 of type rigid
+kin_physx.cpp:addJoint:299(0) ADDING JOINT l_panda_joint7-box1 of type rigid with rel [0, 0, 0]
+kin_physx.cpp:removeJoint:893(0) REMOVING JOINT 0x65dbdb0-0x65e2a40 of type rigid
+kin_physx.cpp:addJoint:299(0) ADDING JOINT l_panda_joint7-box2 of type rigid with rel [0, 0, 0]
+kin_physx.cpp:removeJoint:893(0) REMOVING JOINT 0x65dbdb0-0x65e2e10 of type rigid
+util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
+util.cpp:cd_file:1040(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios' from '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
 util.cpp:getIs:1069(3) opening input file 'pandaSingle.g'
 util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios'
 util.cpp:getIs:1069(3) opening input file 'panda_fixGripper.g'
@@ -144,9 +155,16 @@ util.cpp:getIs:1069(3) opening input file 'finger.ply'
 util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
 util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
 util.cpp:getIs:1069(3) opening input file 'finger.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
-util.cpp:cd_file:1040(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios' from '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
+util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
+bot.cpp:~BotOp:128(0) shutting down BotOp...
+simulation.cpp:~BotThreadedSim:56(0) shutting down SimThread
+simulation.cpp:~Simulation:149(0) shutting down Simulation
+kin_physx.cpp:addJoint:299(0) ADDING JOINT l_panda_joint7-box1 of type rigid with rel [0, 0, 0]
+kin_physx.cpp:removeJoint:893(0) REMOVING JOINT 0x44a0d80-0x4f3f520 of type rigid
+kin_physx.cpp:addJoint:299(0) ADDING JOINT l_panda_joint7-box3 of type rigid with rel [0, 0, 0]
+kin_physx.cpp:removeJoint:893(0) REMOVING JOINT 0x44a0d80-0x55d3100 of type rigid
+util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
+util.cpp:cd_file:1040(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios' from '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
 util.cpp:getIs:1069(3) opening input file 'pandaSingle.g'
 util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios'
 util.cpp:getIs:1069(3) opening input file 'panda_fixGripper.g'
@@ -191,9 +209,14 @@ util.cpp:getIs:1069(3) opening input file 'finger.ply'
 util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
 util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
 util.cpp:getIs:1069(3) opening input file 'finger.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
-util.cpp:cd_file:1040(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios' from '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
+util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
+bot.cpp:~BotOp:128(0) shutting down BotOp...
+simulation.cpp:~BotThreadedSim:56(0) shutting down SimThread
+simulation.cpp:~Simulation:149(0) shutting down Simulation
+kin_physx.cpp:addJoint:299(0) ADDING JOINT l_panda_joint7-box3 of type rigid with rel [0, 0, 0]
+kin_physx.cpp:removeJoint:893(0) REMOVING JOINT 0x4bcb2e0-0x3d10ff0 of type rigid
+util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
+util.cpp:cd_file:1040(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios' from '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
 util.cpp:getIs:1069(3) opening input file 'pandaSingle.g'
 util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios'
 util.cpp:getIs:1069(3) opening input file 'panda_fixGripper.g'
@@ -238,9 +261,18 @@ util.cpp:getIs:1069(3) opening input file 'finger.ply'
 util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
 util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
 util.cpp:getIs:1069(3) opening input file 'finger.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
-util.cpp:cd_file:1040(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios' from '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
+util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
+bot.cpp:~BotOp:128(0) shutting down BotOp...
+simulation.cpp:~BotThreadedSim:56(0) shutting down SimThread
+simulation.cpp:~Simulation:149(0) shutting down Simulation
+kin_physx.cpp:addJoint:299(0) ADDING JOINT l_panda_joint7-box3 of type rigid with rel [0, 0, 0]
+kin_physx.cpp:removeJoint:893(0) REMOVING JOINT 0x50bbf00-0x50bf2d0 of type rigid
+kin_physx.cpp:addJoint:299(0) ADDING JOINT l_panda_joint7-box2 of type rigid with rel [0, 0, 0]
+kin_physx.cpp:removeJoint:893(0) REMOVING JOINT 0x50bbf00-0x50b7f70 of type rigid
+kin_physx.cpp:addJoint:299(0) ADDING JOINT l_panda_joint7-box1 of type rigid with rel [0, 0, 0]
+kin_physx.cpp:removeJoint:893(0) REMOVING JOINT 0x50bbf00-0x50b7ba0 of type rigid
+util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
+util.cpp:cd_file:1040(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios' from '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
 util.cpp:getIs:1069(3) opening input file 'pandaSingle.g'
 util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios'
 util.cpp:getIs:1069(3) opening input file 'panda_fixGripper.g'
@@ -285,9 +317,16 @@ util.cpp:getIs:1069(3) opening input file 'finger.ply'
 util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
 util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
 util.cpp:getIs:1069(3) opening input file 'finger.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
-util.cpp:cd_file:1040(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios' from '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
+util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
+bot.cpp:~BotOp:128(0) shutting down BotOp...
+simulation.cpp:~BotThreadedSim:56(0) shutting down SimThread
+simulation.cpp:~Simulation:149(0) shutting down Simulation
+kin_physx.cpp:addJoint:299(0) ADDING JOINT l_panda_joint7-box1 of type rigid with rel [0, 0, 0]
+kin_physx.cpp:removeJoint:893(0) REMOVING JOINT 0x4759ac0-0x4a396c0 of type rigid
+kin_physx.cpp:addJoint:299(0) ADDING JOINT l_panda_joint7-box3 of type rigid with rel [0, 0, 0]
+kin_physx.cpp:removeJoint:893(0) REMOVING JOINT 0x4759ac0-0x4fd2720 of type rigid
+util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
+util.cpp:cd_file:1040(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios' from '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
 util.cpp:getIs:1069(3) opening input file 'pandaSingle.g'
 util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios'
 util.cpp:getIs:1069(3) opening input file 'panda_fixGripper.g'
@@ -332,9 +371,16 @@ util.cpp:getIs:1069(3) opening input file 'finger.ply'
 util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
 util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
 util.cpp:getIs:1069(3) opening input file 'finger.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
-util.cpp:cd_file:1040(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios' from '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
+util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
+bot.cpp:~BotOp:128(0) shutting down BotOp...
+simulation.cpp:~BotThreadedSim:56(0) shutting down SimThread
+simulation.cpp:~Simulation:149(0) shutting down Simulation
+kin_physx.cpp:addJoint:299(0) ADDING JOINT l_panda_joint7-box1 of type rigid with rel [0, 0, 0]
+kin_physx.cpp:removeJoint:893(0) REMOVING JOINT 0x4abb8d0-0x3ede6c0 of type rigid
+kin_physx.cpp:addJoint:299(0) ADDING JOINT l_panda_joint7-box3 of type rigid with rel [0, 0, 0]
+kin_physx.cpp:removeJoint:893(0) REMOVING JOINT 0x4abb8d0-0x4ab6fe0 of type rigid
+util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
+util.cpp:cd_file:1040(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios' from '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
 util.cpp:getIs:1069(3) opening input file 'pandaSingle.g'
 util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios'
 util.cpp:getIs:1069(3) opening input file 'panda_fixGripper.g'
@@ -379,9 +425,18 @@ util.cpp:getIs:1069(3) opening input file 'finger.ply'
 util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
 util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
 util.cpp:getIs:1069(3) opening input file 'finger.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
-util.cpp:cd_file:1040(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios' from '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
+util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
+bot.cpp:~BotOp:128(0) shutting down BotOp...
+simulation.cpp:~BotThreadedSim:56(0) shutting down SimThread
+simulation.cpp:~Simulation:149(0) shutting down Simulation
+kin_physx.cpp:addJoint:299(0) ADDING JOINT l_panda_joint7-box1 of type rigid with rel [0, 0, 0]
+kin_physx.cpp:removeJoint:893(0) REMOVING JOINT 0x496e440-0x65e86e0 of type rigid
+kin_physx.cpp:addJoint:299(0) ADDING JOINT l_panda_joint7-box3 of type rigid with rel [0, 0, 0]
+kin_physx.cpp:removeJoint:893(0) REMOVING JOINT 0x496e440-0x41d4930 of type rigid
+kin_physx.cpp:addJoint:299(0) ADDING JOINT l_panda_joint7-box2 of type rigid with rel [0, 0, 0]
+kin_physx.cpp:removeJoint:893(0) REMOVING JOINT 0x496e440-0x488fec0 of type rigid
+util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
+util.cpp:cd_file:1040(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios' from '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
 util.cpp:getIs:1069(3) opening input file 'pandaSingle.g'
 util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios'
 util.cpp:getIs:1069(3) opening input file 'panda_fixGripper.g'
@@ -426,9 +481,9 @@ util.cpp:getIs:1069(3) opening input file 'finger.ply'
 util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
 util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
 util.cpp:getIs:1069(3) opening input file 'finger.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
-util.cpp:cd_file:1040(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios' from '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
+util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
+util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
+util.cpp:cd_file:1040(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios' from '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
 util.cpp:getIs:1069(3) opening input file 'pandaSingle.g'
 util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios'
 util.cpp:getIs:1069(3) opening input file 'panda_fixGripper.g'
@@ -473,145 +528,13 @@ util.cpp:getIs:1069(3) opening input file 'finger.ply'
 util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
 util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
 util.cpp:getIs:1069(3) opening input file 'finger.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
-util.cpp:cd_file:1040(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios' from '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
-util.cpp:getIs:1069(3) opening input file 'pandaSingle.g'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios'
-util.cpp:getIs:1069(3) opening input file 'panda_fixGripper.g'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios'
-util.cpp:cd_file:1040(3) entering path '../panda' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios'
-util.cpp:getIs:1069(3) opening input file 'panda.g'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'panda_clean.g'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'link0.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'link1.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'link2.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'link3.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'link4.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'link5.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'link6.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'link7.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'hand.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'finger.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'finger.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
-util.cpp:cd_file:1040(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios' from '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
-util.cpp:getIs:1069(3) opening input file 'pandaSingle.g'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios'
-util.cpp:getIs:1069(3) opening input file 'panda_fixGripper.g'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios'
-util.cpp:cd_file:1040(3) entering path '../panda' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios'
-util.cpp:getIs:1069(3) opening input file 'panda.g'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'panda_clean.g'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'link0.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'link1.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'link2.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'link3.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'link4.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'link5.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'link6.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'link7.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'hand.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'finger.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'finger.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
-util.cpp:cd_file:1040(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios' from '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
-util.cpp:getIs:1069(3) opening input file 'pandaSingle.g'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios'
-util.cpp:getIs:1069(3) opening input file 'panda_fixGripper.g'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios'
-util.cpp:cd_file:1040(3) entering path '../panda' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios'
-util.cpp:getIs:1069(3) opening input file 'panda.g'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'panda_clean.g'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/scenarios'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'link0.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'link1.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'link2.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'link3.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'link4.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'link5.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'link6.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'link7.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'hand.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'finger.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:cd_file:1040(3) entering path 'franka_description/meshes/visual' from '/home/denizsen/.local/lib/python3.8/site-packages/robotic/rai-robotModels/panda'
-util.cpp:getIs:1069(3) opening input file 'finger.ply'
-util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot/n_block_picknplace'
+util.cpp:cd_start:1032(3) entering path '/home/denizsen/Downloads/panda-robot-main/manipulation/bridge_build'
+bot.cpp:~BotOp:128(0) shutting down BotOp...
+simulation.cpp:~BotThreadedSim:56(0) shutting down SimThread
+simulation.cpp:~Simulation:149(0) shutting down Simulation
+kin_physx.cpp:addJoint:299(0) ADDING JOINT l_panda_joint7-box2 of type rigid with rel [0, 0, 0]
+kin_physx.cpp:removeJoint:893(0) REMOVING JOINT 0x4277de0-0x56721b0 of type rigid
+kin_physx.cpp:addJoint:299(0) ADDING JOINT l_panda_joint7-box1 of type rigid with rel [0, 0, 0]
+kin_physx.cpp:removeJoint:893(0) REMOVING JOINT 0x4277de0-0x6dea3b0 of type rigid
+kin_physx.cpp:addJoint:299(0) ADDING JOINT l_panda_joint7-box3 of type rigid with rel [0, 0, 0]
+kin_physx.cpp:removeJoint:893(0) REMOVING JOINT 0x4277de0-0x5d91290 of type rigid

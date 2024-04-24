@@ -276,14 +276,6 @@ class ManipulationModelling():
         for pair in pairwise_objs_lst:
             self.komo.addObjective([time_interval], ry.FS.negDistance, [pair[0], pair[1]], ry.OT.ineq, [1e1], [-margin])
 
-    def auto_pairwise_keep_dist_(self, time_interval, objs_lst1, margin = 0.001):
-        """
-        automatic inequality on distance between multiple objects
-        """
-        pairwise_objs_lst = list(combinations(objs_lst1, 2))
-        for pair in pairwise_objs_lst:
-            self.komo.addObjective([time_interval], ry.FS.negDistance, [pair[0], pair[1]], ry.OT.ineq, [1e1], [-margin])
-            #self.komo.addObjective([time_interval], ry.FS.distance, [pair[0], pair[1]], ry.OT.ineq, [1e1], [margin])
 
     def switch_pick():
         """
