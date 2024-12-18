@@ -4,7 +4,7 @@ import torch
 from torch.utils.data import Dataset, DataLoader
 import torchvision.transforms as transforms
 import numpy as np 
-from utils import waypoints_from_bridge_build
+from utils.utils import waypoints_from_bridge_build
 # Define a custom dataset class
 class CustomImageDataset(Dataset):
     def __init__(self, root_dir, transform=None):
@@ -53,7 +53,7 @@ class ImageWaypointDataset(Dataset):
         pos, quat = waypoints_from_bridge_build(waypoint)
         if self.img_transform:
             image = self.img_transform(image)
-        return image, pos
+        return image, np.array(pos, dtype=np.float32)
 
 
 def test():
@@ -64,21 +64,16 @@ def test():
         transforms.ToTensor(),          # Convert image to tensor
     ])
 
-    waypoint_transform = transforms.Compose([
-        transforms.ToTensor(),          # Convert image to tensor
-    ])
-
-
     dataset = ImageWaypointDataset(img_dir='data/bridge/img', waypoint_dir='data/bridge/paths', 
                                     img_transform=img_transform, 
-                                    waypoint_transform=waypoint_transform)
+                                    )
     
     loader = DataLoader(dataset = dataset, batch_size = 32, shuffle = False)
     
     for idx, (x, y) in enumerate(loader):
         #print("idx:", idx)
         #print("image x:", x.shape)
-        print("waypoint y:", y.shape)
+        #print("waypoint y:", y.shape)
         pass
 
-test()
+#test()
